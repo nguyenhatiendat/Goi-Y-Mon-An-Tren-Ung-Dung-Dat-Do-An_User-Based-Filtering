@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f66a3b">
+  <meta name="description" content="FoodMatch giúp bạn khám phá những món ăn mới hợp gu, dựa trên lịch sử đặt món và những người có sở thích tương tự.">
+  <title>FoodMatch — Hôm nay ăn gì?</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="account.css">
+  <script defer src="data.js"></script>
+  <script defer src="assets/credits.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body data-runtime="browser" class="auth-screen">
+  <a class="skip-link" href="#mainContent">Đến nội dung chính</a>
+  <section class="auth-layout" id="authScreen" aria-label="Đăng nhập FoodMatch">
+    <div class="auth-story"><a class="auth-brand" href="#">FoodMatch<span>.</span></a><span class="eyebrow">BỮA NGON, ĐÚNG GU BẠN</span><h1>Một tài khoản. <br>Thật nhiều<br><span>bữa ngon.</span></h1><p>Khám phá 80 món từ 20 căn bếp.<br>Lưu khẩu vị, đặt món và tìm thêm món bạn thích.</p><div class="auth-photo"><img src="assets/food-01.webp" alt="Một bữa cơm Việt ngon lành"><span>Chọn món ngon.<br>Giữ lại khẩu vị của riêng bạn.</span></div><div class="auth-facts"><span>80 món ngon</span><span>20 nhà hàng</span><span>3 quán trà sữa</span></div></div>
+    <div class="auth-form-area"><div class="auth-form-card"><span class="eyebrow">CHÀO MỪNG ĐẾN VỚI FOODMATCH</span><h2 id="authTitle">Mừng bạn trở lại<span class="orange">.</span></h2><p id="authSubtitle">Đăng nhập để tiếp tục những bữa ngon của bạn.</p><div class="auth-tabs" role="group" aria-label="Chọn đăng nhập hoặc đăng ký"><button class="active" type="button" data-auth-mode="login">Đăng nhập</button><button type="button" data-auth-mode="register">Đăng ký</button></div>
+    <form id="authForm"><div id="authNameRow" hidden><label for="authName">Họ và tên</label><input id="authName" type="text" minlength="2" maxlength="50" autocomplete="name" placeholder="Tên bạn muốn được gọi"></div><label for="authEmail">Email</label><input id="authEmail" type="email" maxlength="254" required autocomplete="username" placeholder="ban@example.com"><label for="authPassword">Mật khẩu</label><div class="auth-password"><input id="authPassword" type="password" minlength="8" maxlength="128" required autocomplete="current-password" placeholder="Ít nhất 8 ký tự"><button id="showPassword" type="button" aria-label="Hiện mật khẩu">Hiện</button></div><div id="authConfirmRow" hidden><label for="authConfirm">Nhập lại mật khẩu</label><input id="authConfirm" type="password" minlength="8" maxlength="128" autocomplete="new-password" placeholder="Nhập lại mật khẩu của bạn"></div><p id="authError" class="form-error" role="alert"></p><button class="primary-button auth-submit" type="submit" id="authSubmit">Đăng nhập <span data-icon="arrow-right"></span></button></form>
+    <p class="auth-small">Khẩu vị, yêu thích và lịch sử được lưu riêng theo tài khoản.</p><div id="authPreviewNotice" class="preview-notice" hidden><strong>Đây là bản xem trước giao diện.</strong><p>Chạy bản Flask tải về để đăng ký và đăng nhập thật. Bản xem trước không nhận hoặc lưu mật khẩu.</p><button type="button" class="secondary-button" id="previewGuestButton">Xem thực đơn & bảng khẩu vị <span data-icon="arrow-right"></span></button></div></div></div>
+  </section>
+  <button class="sidebar-backdrop" id="sidebarBackdrop" aria-label="Đóng menu"></button>
+  <aside class="sidebar" id="sidebar" aria-label="Điều hướng chính">
+    <a class="brand" href="#" aria-label="FoodMatch — Trang chủ" id="brandLink">
+      <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M6 19h24c-1 9-5 12-12 12S7 28 6 19Z" fill="currentColor"/><path d="M11 9c-3 4 4 4 1 8m6-12c-3 5 4 5 1 10m6-7c-3 4 4 4 1 8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M4 19h28" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></span>
+      Food<span>Match<span class="brand-dot">.</span></span>
+    </a>
+    <div class="nav-label">BỮA NGON CỦA BẠN</div>
+    <nav id="primaryNav">
+      <button class="nav-item active" data-view="discover"><span data-icon="compass"></span>Khám phá<span class="nav-dot"></span></button>
+      <button class="nav-item" data-view="menu"><span data-icon="menu"></span>Thực đơn</button>
+      <button class="nav-item" data-view="restaurants"><span data-icon="store"></span>Nhà hàng</button>
+      <button class="nav-item" data-view="favourites"><span data-icon="heart"></span>Yêu thích<span class="nav-count" id="favouriteCount">0</span></button>
+      <button class="nav-item" data-view="history"><span data-icon="clock"></span>Lịch sử đặt món</button>
+    </nav>
+    <div class="nav-divider"></div>
+    <div class="nav-label">ĐẰNG SAU MÓN NGON</div>
+    <button class="nav-item" data-view="ai"><span data-icon="sparkles"></span>Cách AI gợi ý</button>
+    <div class="sidebar-bottom">
+      <div class="surprise-card">
+        <div class="surprise-doodle" aria-hidden="true"><svg viewBox="0 0 140 80" fill="none"><ellipse cx="72" cy="70" rx="43" ry="5" fill="#e9bca5" opacity=".45"/><path d="M36 35h72c-2 23-15 34-36 34S38 58 36 35Z" fill="#f66a3b"/><path d="M32 35h80" stroke="#e55a2c" stroke-width="5" stroke-linecap="round"/><path d="m86 11 30-9M84 17l34-6" stroke="#383a2d" stroke-width="3.5" stroke-linecap="round"/><path d="M55 18c-5 7 4 7 0 13m14-19c-5 7 4 7 0 13" stroke="#f69b72" stroke-width="3" stroke-linecap="round"/><circle cx="62" cy="47" r="2" fill="#fff"/><circle cx="81" cy="47" r="2" fill="#fff"/><path d="M68 53q5 5 9 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <strong>Chưa biết ăn gì?</strong>
+        <p>Để một món ngon<br>tìm đến bạn nhé.</p>
+        <button class="surprise-button" id="surpriseButton">Chọn giúp mình <span data-icon="arrow-right"></span></button>
+      </div>
+      <div class="project-note"><span class="status-dot"></span>Đồ án Trí tuệ nhân tạo<br><span>Dữ liệu & đặt món mô phỏng</span></div>
+    </div>
+  </aside>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="mobileMenu" aria-label="Mở menu"><span data-icon="hamburger"></span></button>
+      <div class="location"><span class="location-icon" data-icon="pin"></span><div><small>KHÁM PHÁ MÓN NGON TẠI</small><strong>TP. Hồ Chí Minh</strong></div></div>
+      <div class="searchbox"><span data-icon="search"></span><input id="searchInput" type="search" placeholder="Bạn đang thèm món gì?" aria-label="Tìm món ăn hoặc nhà hàng" autocomplete="off"><kbd>/</kbd></div>
+      <button class="cart-trigger" id="cartButton" aria-label="Mở giỏ món"><span data-icon="bag"></span><span class="cart-count" id="cartCount" hidden>0</span></button>
+      <div class="topbar-divider"></div>
+      <button class="profile-trigger" id="profileButton" aria-label="Tài khoản của tôi"><span class="avatar" id="profileAvatar">B</span><span class="profile-copy"><small>Xin chào,</small><strong id="profileName">Bạn</strong></span><span data-icon="chevron-down"></span></button>
+    </header>
+
+    <main id="mainContent" class="main-content" tabindex="-1">
+      <div id="pageContent"><div class="initial-loading"><span class="loading-spinner"></span>Đang chuẩn bị những món ngon cho bạn…</div></div>
+      <footer class="page-footer"><span>FoodMatch<span class="orange">.</span> <span class="footer-separator">/</span> Bữa ngon, đúng gu.</span><button class="text-link" id="creditsButton">Nguồn ảnh minh họa <span data-icon="external"></span></button></footer>
+    </main>
+  </div>
+
+  <dialog id="profileDialog" class="modal profile-modal" aria-labelledby="profileTitle"><div class="modal-heading"><div><span class="eyebrow">MỖI NGƯỜI MỘT KHẨU VỊ</span><h2 id="profileTitle">Tài khoản của bạn</h2></div><button class="icon-button" data-close="profileDialog" aria-label="Đóng"><span data-icon="close"></span></button></div><div id="accountSummary" class="account-summary"></div><button class="account-action" id="editPreferences"><span data-icon="filter"></span>Khẩu vị & mức giá của tôi<span data-icon="arrow-right"></span></button><button class="account-action logout-action" id="logoutButton">Đăng xuất</button></dialog>
+
+  <dialog id="preferencesDialog" class="modal preferences-modal" aria-labelledby="preferencesTitle"><form id="preferencesForm"><div class="modal-heading"><div><span class="eyebrow">TRƯỚC KHI BẮT ĐẦU BỮA NGON</span><h2 id="preferencesTitle">Chọn gu, tìm món ngon<span class="orange">.</span></h2></div><button class="icon-button" type="button" id="preferencesCancel" aria-label="Đóng bảng khẩu vị"><span data-icon="close"></span></button></div><p class="muted">Một vài lựa chọn để FoodMatch gợi ý ngay cả khi bạn chưa có lịch sử. Bạn có thể đổi lại bất cứ lúc nào.</p><section class="preference-section"><h3><span>01</span>Bữa này, ngân sách bao nhiêu?</h3><div class="preference-price-grid"><div><label for="prefMinPrice">Từ (đồng / phần)</label><input id="prefMinPrice" type="number" min="0" max="100000000" step="1" value="0" required></div><div><label for="prefMaxPrice">Đến (để trống nếu không giới hạn)</label><input id="prefMaxPrice" type="number" min="0" max="100000000" step="1" placeholder="Không giới hạn"></div></div><div class="price-presets"><button type="button" data-pref-price="40000">Dưới 40.000đ</button><button type="button" data-pref-price="60000">Dưới 60.000đ</button><button type="button" data-pref-price="100000">Dưới 100.000đ</button><button type="button" data-pref-price="">Không giới hạn</button></div></section><section class="preference-section"><h3><span>02</span>Khẩu vị của bạn thế nào?</h3><label class="taste-field-label">Độ cay cho món ăn</label><div class="taste-grid"><label class="taste-choice"><input type="radio" name="prefSpice" value="any" checked><strong>Không kén</strong><small>Cay hay không đều được</small></label><label class="taste-choice"><input type="radio" name="prefSpice" value="none"><strong>Không cay</strong><small>Ưu tiên vị nhẹ nhàng</small></label><label class="taste-choice"><input type="radio" name="prefSpice" value="mild"><strong>Cay nhẹ thôi</strong><small>Không cay hoặc cay nhẹ</small></label><label class="taste-choice"><input type="radio" name="prefSpice" value="hot"><strong>Thích ăn cay</strong><small>Chọn món cay nhẹ/cay nhiều</small></label></div><label class="taste-field-label">Chế độ ăn</label><div class="taste-grid diet-grid"><label class="taste-choice"><input type="radio" name="prefDiet" value="any" checked><strong>Cả chay & mặn</strong><small>Thoải mái lựa chọn</small></label><label class="taste-choice"><input type="radio" name="prefDiet" value="vegetarian"><strong>Món chay</strong><small>Có thể có sữa, phô mai</small></label><label class="taste-choice"><input type="radio" name="prefDiet" value="nonvegetarian"><strong>Món mặn</strong><small>Món có thịt, cá hoặc trứng</small></label></div><p class="preference-hint">Đồ uống không bị lọc theo độ cay/chay–mặn. Đây không phải bộ lọc dị ứng hoặc thuần chay.</p></section><section class="preference-section"><h3><span>03</span>Bạn thường thèm món gì?</h3><p class="muted small-text">Chọn nhiều nhóm để ưu tiên gợi ý. Để trống nếu bạn muốn khám phá mọi nhóm.</p><div id="preferenceCategories" class="preference-categories"></div></section><p id="preferencesError" class="form-error" role="alert"></p><div class="modal-actions"><button class="secondary-button" type="button" id="skipPreferences">Để sau, khám phá tất cả</button><button class="primary-button" type="submit" id="preferencesSave">Lưu khẩu vị & khám phá<span data-icon="arrow-right"></span></button></div></form></dialog>
+
+  <dialog id="detailDialog" class="modal dish-modal" aria-label="Chi tiết món ăn"><div id="detailContent"></div></dialog>
+
+  <dialog id="filterDialog" class="modal filter-modal" aria-labelledby="filterTitle">
+    <form id="filterForm"><div class="modal-heading"><div><span class="eyebrow">MÓN NGON VỪA TÚI TIỀN</span><h2 id="filterTitle">Bữa này, bao nhiêu nhỉ?</h2></div><button class="icon-button" type="button" data-close="filterDialog" aria-label="Đóng"><span data-icon="close"></span></button></div>
+      <label class="field-label" for="maxPrice">Giá tối đa cho một phần ăn</label><div class="price-input"><input id="maxPrice" type="number" min="1" max="100000000" step="1" placeholder="Không giới hạn"><span>đồng</span></div>
+      <div class="filter-extra"><label for="minPrice">Giá tối thiểu (đồng / phần)</label><input id="minPrice" type="number" min="0" max="100000000" value="0"><label for="filterSpice">Độ cay của món ăn</label><select id="filterSpice"><option value="any">Không kén</option><option value="none">Không cay</option><option value="mild">Không cay / cay nhẹ</option><option value="hot">Thích ăn cay</option></select><label for="filterDiet">Chay / mặn</label><select id="filterDiet"><option value="any">Cả chay & mặn</option><option value="vegetarian">Món chay</option><option value="nonvegetarian">Món mặn</option></select></div>
+      <div class="price-presets"><button type="button" data-price="40000">40.000đ</button><button type="button" data-price="60000">60.000đ</button><button type="button" data-price="100000">100.000đ</button><button type="button" data-price="">Tất cả</button></div>
+      <p class="muted small-text">Giá món mô phỏng, chưa bao gồm phí giao hàng.</p><div class="modal-actions"><button class="secondary-button" type="button" id="clearFilters">Xóa bộ lọc</button><button class="primary-button" type="submit">Áp dụng <span data-icon="check"></span></button></div>
+    </form>
+  </dialog>
+
+  <dialog id="cartDialog" class="cart-drawer" aria-labelledby="cartTitle"><div class="cart-heading"><div><span class="eyebrow">SẮP CÓ MỘT BỮA NGON</span><h2 id="cartTitle">Giỏ món của bạn<span class="orange">.</span></h2></div><button class="icon-button" data-close="cartDialog" aria-label="Đóng giỏ món"><span data-icon="close"></span></button></div><div id="cartContent" class="cart-content"></div><div id="cartSummary" class="cart-summary"></div></dialog>
+  <dialog id="creditsDialog" class="modal" aria-labelledby="creditsTitle"><div class="modal-heading"><h2 id="creditsTitle">Nguồn ảnh minh họa</h2><button class="icon-button" data-close="creditsDialog" aria-label="Đóng"><span data-icon="close"></span></button></div><div id="creditsContent"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
