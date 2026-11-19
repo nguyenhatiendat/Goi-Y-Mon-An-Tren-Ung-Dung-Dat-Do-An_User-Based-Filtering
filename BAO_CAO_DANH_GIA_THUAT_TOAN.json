@@ -1,0 +1,36 @@
+{
+  "dataset": "SYNTHETIC demo CSV, not real-user quality",
+  "cutoff": "2026-10-20T00:00:00+00:00",
+  "training_events": 1140,
+  "test_events": 300,
+  "evaluated_users": 57,
+  "k": 10,
+  "protocol": "Global temporal holdout; relevant items are held-out dishes unseen in training; no parameter tuning on this test.",
+  "sparse_index_build_ms": 0.6129220000730129,
+  "experimental_index_build_ms": 0.8318820000567939,
+  "timing_note": "Optimized inference uses one prepared index, like the app cache; index build cost is reported separately.",
+  "raw_cosine": {
+    "precision_at_k": 0.15614035087719286,
+    "recall_at_k": 0.5616959064327485,
+    "hit_rate_at_k": 0.9122807017543859,
+    "ndcg_at_k": 0.3510076710679442,
+    "catalog_coverage": 0.9625,
+    "milliseconds_per_user": 0.31660531577041473
+  },
+  "sparse_user_based_default": {
+    "precision_at_k": 0.15614035087719286,
+    "recall_at_k": 0.5616959064327485,
+    "hit_rate_at_k": 0.9122807017543859,
+    "ndcg_at_k": 0.3510076710679442,
+    "catalog_coverage": 0.9625,
+    "milliseconds_per_user": 0.2547658947597691
+  },
+  "normalized_shrinkage_experimental": {
+    "precision_at_k": 0.15438596491228065,
+    "recall_at_k": 0.5570175438596491,
+    "hit_rate_at_k": 0.8947368421052632,
+    "ndcg_at_k": 0.33113975944605545,
+    "catalog_coverage": 0.9375,
+    "milliseconds_per_user": 0.22598892983775218
+  }
+}

@@ -1,0 +1,81 @@
+﻿id,ten,nha_hang_id,nhom,gia,cay,chay,image
+1,Cơm tấm sườn bì,1,Cơm,45000,0,0,assets/dishes/dish-001.webp
+2,Cơm gà xối mỡ,1,Cơm,48000,0,0,assets/dishes/dish-002.webp
+3,Cơm bò lúc lắc,1,Cơm,55000,1,0,assets/dishes/dish-003.webp
+4,Cơm sườn trứng,1,Cơm,50000,0,0,assets/dishes/dish-004.webp
+5,Cơm cá kho tộ,2,Cơm,45000,1,0,assets/dishes/dish-005.webp
+6,Cơm gà teriyaki,2,Cơm,49000,0,0,assets/dishes/dish-006.webp
+7,Cơm thịt kho trứng,2,Cơm,45000,0,0,assets/dishes/dish-007.webp
+8,Cơm rau nấm,2,Cơm,39000,0,1,assets/dishes/dish-008.webp
+9,Phở bò tái,3,Bún / phở,50000,0,0,assets/dishes/dish-009.webp
+10,Bún bò Huế,3,Bún / phở,50000,2,0,assets/dishes/dish-010.webp
+11,Bún thịt nướng,3,Bún / phở,42000,0,0,assets/dishes/dish-011.webp
+12,Phở gà,3,Bún / phở,45000,0,0,assets/dishes/dish-012.webp
+13,Bún bò đặc biệt,4,Bún / phở,65000,2,0,assets/dishes/dish-013.webp
+14,Bún bò nạm gân,4,Bún / phở,55000,1,0,assets/dishes/dish-014.webp
+15,Bún chả cá,4,Bún / phở,42000,1,0,assets/dishes/dish-015.webp
+16,Bún riêu cua,4,Bún / phở,45000,0,0,assets/dishes/dish-016.webp
+17,Gà rán giòn,5,Món gà,59000,0,0,assets/dishes/dish-017.webp
+18,Gà sốt cay,5,Món gà,65000,2,0,assets/dishes/dish-018.webp
+19,Gà nướng mật ong,5,Món gà,69000,0,0,assets/dishes/dish-019.webp
+20,Gà nướng tiêu,5,Món gà,65000,1,0,assets/dishes/dish-020.webp
+21,Gà sốt phô mai,6,Món gà,65000,0,0,assets/dishes/dish-021.webp
+22,Gà sốt tỏi mật ong,6,Món gà,65000,1,0,assets/dishes/dish-022.webp
+23,Gà cay Hàn Quốc,6,Món gà,69000,2,0,assets/dishes/dish-023.webp
+24,Khoai tây chiên Golden,6,Ăn vặt,29000,0,1,assets/dishes/dish-024.webp
+25,Pizza hải sản,7,Món Âu,129000,0,0,assets/dishes/dish-025.webp
+26,Pizza bò sốt tiêu,7,Món Âu,119000,1,0,assets/dishes/dish-026.webp
+27,Pizza phô mai,7,Món Âu,109000,0,1,assets/dishes/dish-027.webp
+28,Mì Ý bò bằm,7,Món Âu,75000,0,0,assets/dishes/dish-028.webp
+29,Burger bò phô mai,8,Món Âu,65000,0,0,assets/dishes/dish-029.webp
+30,Burger gà giòn,8,Món Âu,55000,0,0,assets/dishes/dish-030.webp
+31,Burger nấm chay,8,Món Âu,49000,0,1,assets/dishes/dish-031.webp
+32,Khoai tây phủ phô mai,8,Ăn vặt,35000,0,1,assets/dishes/dish-032.webp
+33,Bánh tráng trộn,9,Ăn vặt,25000,1,0,assets/dishes/dish-033.webp
+34,Cá viên chiên,9,Ăn vặt,30000,0,0,assets/dishes/dish-034.webp
+35,Trứng cút chiên,9,Ăn vặt,25000,0,0,assets/dishes/dish-035.webp
+36,Khoai tây chiên,9,Ăn vặt,30000,0,1,assets/dishes/dish-036.webp
+37,Bánh tráng cuốn,10,Ăn vặt,25000,1,0,assets/dishes/dish-037.webp
+38,Cá viên sốt cay,10,Ăn vặt,35000,2,0,assets/dishes/dish-038.webp
+39,Nem chua rán,10,Ăn vặt,35000,1,0,assets/dishes/dish-039.webp
+40,Khoai tây lắc phô mai,10,Ăn vặt,35000,0,1,assets/dishes/dish-040.webp
+41,Cơm trộn Hàn Quốc,11,Món Hàn,65000,1,0,assets/dishes/dish-041.webp
+42,Kimbap thịt,11,Món Hàn,45000,0,0,assets/dishes/dish-042.webp
+43,Tokbokki chay,11,Món Hàn,55000,2,1,assets/dishes/dish-043.webp
+44,Canh kim chi thịt,11,Món Hàn,60000,2,0,assets/dishes/dish-044.webp
+45,Cơm bò bulgogi,12,Món Hàn,69000,0,0,assets/dishes/dish-045.webp
+46,Kimbap rau củ,12,Món Hàn,42000,0,1,assets/dishes/dish-046.webp
+47,Mì cay Hàn Quốc,12,Món Hàn,65000,2,0,assets/dishes/dish-047.webp
+48,Mandu thịt hấp,12,Món Hàn,45000,0,0,assets/dishes/dish-048.webp
+49,Cơm chay nấm,13,Món chay,40000,0,1,assets/dishes/dish-049.webp
+50,Bún chay,13,Món chay,38000,0,1,assets/dishes/dish-050.webp
+51,Salad rau củ,13,Món chay,45000,0,1,assets/dishes/dish-051.webp
+52,Gỏi cuốn chay,13,Món chay,35000,0,1,assets/dishes/dish-052.webp
+53,Phở chay,14,Món chay,42000,0,1,assets/dishes/dish-053.webp
+54,Cơm nấm đậu hũ,14,Món chay,45000,0,1,assets/dishes/dish-054.webp
+55,Đậu hũ sốt Tứ Xuyên chay,14,Món chay,39000,1,1,assets/dishes/dish-055.webp
+56,Mì xào rau củ,14,Món chay,40000,0,1,assets/dishes/dish-056.webp
+57,Trà sữa trân châu Tea Cloud,15,Đồ uống,35000,0,1,assets/dishes/dish-057.webp
+58,Trà sữa ô long kem sữa,15,Đồ uống,45000,0,1,assets/dishes/dish-058.webp
+59,Trà sữa Thái xanh,15,Đồ uống,39000,0,1,assets/dishes/dish-059.webp
+60,Sữa tươi trân châu đường đen,15,Đồ uống,45000,0,1,assets/dishes/dish-060.webp
+61,Trà sữa truyền thống Mây,16,Đồ uống,32000,0,1,assets/dishes/dish-061.webp
+62,Matcha latte Mây,16,Đồ uống,42000,0,1,assets/dishes/dish-062.webp
+63,Trà sữa ô long nướng,16,Đồ uống,45000,0,1,assets/dishes/dish-063.webp
+64,Trà sữa đường đen Mây,16,Đồ uống,42000,0,1,assets/dishes/dish-064.webp
+65,Trà sữa lài Lá Nhỏ,17,Đồ uống,39000,0,1,assets/dishes/dish-065.webp
+66,Trà sữa cacao,17,Đồ uống,42000,0,1,assets/dishes/dish-066.webp
+67,Trà sữa khoai môn,17,Đồ uống,42000,0,1,assets/dishes/dish-067.webp
+68,Trà dâu nhiệt đới,17,Đồ uống,32000,0,1,assets/dishes/dish-068.webp
+69,Trà đào cam sả,18,Đồ uống,32000,0,1,assets/dishes/dish-069.webp
+70,Trà vải hoa lài,18,Đồ uống,32000,0,1,assets/dishes/dish-070.webp
+71,Trà chanh tươi,18,Đồ uống,25000,0,1,assets/dishes/dish-071.webp
+72,Trà mận nhiệt đới,18,Đồ uống,35000,0,1,assets/dishes/dish-072.webp
+73,Cà phê sữa đá,19,Đồ uống,25000,0,1,assets/dishes/dish-073.webp
+74,Bạc xỉu,19,Đồ uống,29000,0,1,assets/dishes/dish-074.webp
+75,Cà phê đen đá,19,Đồ uống,22000,0,1,assets/dishes/dish-075.webp
+76,Cold brew nguyên bản,19,Đồ uống,35000,0,1,assets/dishes/dish-076.webp
+77,Salad gà nướng,20,Món Âu,55000,0,0,assets/dishes/dish-077.webp
+78,Salad bơ rau xanh,20,Món chay,49000,0,1,assets/dishes/dish-078.webp
+79,Salad đậu hũ,20,Món chay,45000,0,1,assets/dishes/dish-079.webp
+80,Salad cá ngừ,20,Món Âu,69000,0,0,assets/dishes/dish-080.webp

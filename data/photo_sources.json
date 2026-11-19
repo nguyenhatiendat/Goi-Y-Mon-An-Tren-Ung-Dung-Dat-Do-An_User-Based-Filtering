@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "name": "Cơm tấm sườn bì",
+    "image": "assets/dishes/dish-001.webp",
+    "source_image_url": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2026/07/c63a4572-1-700x700.jpg",
+    "sha256": "47adba593c30bf99887c8cabd3fdc4d7b045c54681fc859e01b49c189c48b18d"
+  },
+  {
+    "id": 2,
+    "name": "Cơm gà xối mỡ",
+    "image": "assets/dishes/dish-002.webp",
+    "source_image_url": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture/News/News_expe_17910/17910.png?version=281829",
+    "sha256": "aa1503998394d969fd1e72f5965daf1ae96d450ec165e929fa5c3558c392a28e"
+  },
+  {
+    "id": 3,
+    "name": "Cơm bò lúc lắc",
+    "image": "assets/dishes/dish-003.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/414/350/products/com-bo.jpg?v=1695200204313",
+    "sha256": "595c5aacef38d5b63492059cb8d65658cb094d989883501f1fcb0865dbe604b0"
+  },
+  {
+    "id": 4,
+    "name": "Cơm sườn trứng",
+    "image": "assets/dishes/dish-004.webp",
+    "source_image_url": "https://cook.ai.vn/images/com_tam_sai_gon.png",
+    "sha256": "931aada5512af6465a1edd6f8ccfda5263c64db5c765ea5721944fc9425818d0"
+  },
+  {
+    "id": 5,
+    "name": "Cơm cá kho tộ",
+    "image": "assets/dishes/dish-005.webp",
+    "source_image_url": "https://anbangbeachvillage.com/wp-content/uploads/2024/08/Ca-kho-to.webp",
+    "sha256": "feb646653c96dbb87992bac2af06f52a7b986d8910fbe3e0dc5d05881f4fddfa"
+  },
+  {
+    "id": 6,
+    "name": "Cơm gà teriyaki",
+    "image": "assets/dishes/dish-006.webp",
+    "source_image_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/chicken_teriyaki_don.jpg",
+    "sha256": "30581cdc5c24acc21a94e779e3d39ec1bd5d9e746d2011ca852844db5fbdd07d"
+  },
+  {
+    "id": 7,
+    "name": "Cơm thịt kho trứng",
+    "image": "assets/dishes/dish-007.webp",
+    "source_image_url": "https://images.getrecipekit.com/20240510124741-braised_pork_belly_1296x.webp?aspect_ratio=4%3A3&quality=90",
+    "sha256": "86ae737f460d61c577830b0616a9c47ea4a89841de4b3a4d188a9426aa384f0a"
+  },
+  {
+    "id": 8,
+    "name": "Cơm rau nấm",
+    "image": "assets/dishes/dish-008.webp",
+    "source_image_url": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2023/09/39df752d-ban-sao-cua-template-2023-09-04t191842.046.png",
+    "sha256": "f9d094de7da0f235436a42604d733f96ec1dcb04eb0e9537b306a3592a91f9f2"
+  },
+  {
+    "id": 9,
+    "name": "Phở bò tái",
+    "image": "assets/dishes/dish-009.webp",
+    "source_image_url": "https://cdn.shortpixel.ai/spai/q_lossy%2Bret_img%2Bto_webp/https%3A/vietnamisawesome.com/wp-content/uploads/2023/04/Pho-Gia-Truyen-Bat-Dan-1024x683.jpeg",
+    "sha256": "8499468dd549c7fea22a8568a6eae2e27112fe61009bde7a2ce0ee1479b1654f"
+  },
+  {
+    "id": 10,
+    "name": "Bún bò Huế",
+    "image": "assets/dishes/dish-010.webp",
+    "source_image_url": "https://images.baodantoc.vn/uploads/2025/Thang-4/Ngay-4/Duy-Long/3t48.jpg",
+    "sha256": "909cfb5e201a3d1851ac0162bb21ffab1ad3833ec60cc42683b8bce5246f4c3f"
+  },
+  {
+    "id": 11,
+    "name": "Bún thịt nướng",
+    "image": "assets/dishes/dish-011.webp",
+    "source_image_url": "https://media.phunutoday.vn/files/content/2026/06/13/cach-lam-bun-thit-nuong-chuan-quan-0904.jpg",
+    "sha256": "ab8390c74d595bf693e7bb4fd99079f66b26bd43913c972434bd2beae499eb1d"
+  },
+  {
+    "id": 12,
+    "name": "Phở gà",
+    "image": "assets/dishes/dish-012.webp",
+    "source_image_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/vietnamese_chicken_pho.jpg",
+    "sha256": "58caa1190b937aa76f46564ae71dbbd683a3e7630b8434e096887e70c305f4c5"
+  },
+  {
+    "id": 13,
+    "name": "Bún bò đặc biệt",
+    "image": "assets/dishes/dish-013.webp",
+    "source_image_url": "https://flavorforgeblog.com/assets/images/1771898883430-pqx1cbmh.webp",
+    "sha256": "8338104e19a7de6b6dadb423ce239bb340eb487aa805e6d79897363dbb224c52"
+  },
+  {
+    "id": 14,
+    "name": "Bún bò nạm gân",
+    "image": "assets/dishes/dish-014.webp",
+    "source_image_url": "https://cdn2.fptshop.com.vn/unsafe/bun_bo_gan_11e68c869c.jpg",
+    "sha256": "391a25f5f8f14716f3fbcfbcdc6689d273fd150d0a5a5331c756e1e52f0c33f3"
+  },
+  {
+    "id": 15,
+    "name": "Bún chả cá",
+    "image": "assets/dishes/dish-015.webp",
+    "source_image_url": "https://storage.googleapis.com/onelife-public/blog.onelife.vn/2026/01/f5dbcf71-bun-cha-ca-mien-trung-4-700x525.jpg",
+    "sha256": "49092b280d3c6a48b6672cbbb5e2cf20b2835ba25ed4006955b034ecacadb035"
+  },
+  {
+    "id": 16,
+    "name": "Bún riêu cua",
+    "image": "assets/dishes/dish-016.webp",
+    "source_image_url": "https://cdn-www.vinid.net/337b1f74-cach-nau-bun-rieu-cua.jpg",
+    "sha256": "be178e22f589ab82971801dff4f94f23660b3e7c9282508e8aefa1ff021ddef1"
+  },
+  {
+    "id": 17,
+    "name": "Gà rán giòn",
+    "image": "assets/dishes/dish-017.webp",
+    "source_image_url": "https://file.hstatic.net/200000700229/article/ga-ran-gion-1_83c75dcbff794589a4be4ae74e71c8e6.jpg",
+    "sha256": "db8526458f06f4e8feed1107815d8b5d37fca4637381dc5b328fa6e4f0c1dfaf"
+  },
+  {
+    "id": 18,
+    "name": "Gà sốt cay",
+    "image": "assets/dishes/dish-018.webp",
+    "source_image_url": "https://afamilycdn.com/150157425591193600/2024/6/26/ga-sot-cay-11042953-1719372773165-17193727743501250891152.jpg",
+    "sha256": "6b8533f98a1ea32ee25ae707c5d820a9e881d28b3ebcbeaa0e185e3074b7cf38"
+  },
+  {
+    "id": 19,
+    "name": "Gà nướng mật ong",
+    "image": "assets/dishes/dish-019.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/257/841/files/5d4-3995.jpg?v=1663662921073",
+    "sha256": "c74ee2ec0607b5b13315f17f93403b759a213d61f87d5c10210171527ba8f202"
+  },
+  {
+    "id": 20,
+    "name": "Gà nướng tiêu",
+    "image": "assets/dishes/dish-020.webp",
+    "source_image_url": "https://cdn.tgdd.vn/2021/10/CookDish/cach-lam-dui-ga-sot-tieu-xanh-thom-ngon-hap-dan-de-lam-ngay-avt-1200x676.jpg",
+    "sha256": "105a777eb9c021859ad87853b72fe8203dc87e579ed545c5d04c553aa46de136"
+  },
+  {
+    "id": 21,
+    "name": "Gà sốt phô mai",
+    "image": "assets/dishes/dish-021.webp",
+    "source_image_url": "https://images.mrcook.app/recipe-image/01968b6b-a683-7e30-800a-1e9d404ff6cc?cacheKey=VGh1LCAwMSBNYXkgMjAyNSAxMDozNjo1MiBHTVQ%3D",
+    "sha256": "f705a125276b17c7395b39e0d065da34b94da55e487b62a85cdff8efd2a5d2bf"
+  },
+  {
+    "id": 22,
+    "name": "Gà sốt tỏi mật ong",
+    "image": "assets/dishes/dish-022.webp",
+    "source_image_url": "https://cdn.recipesure.com/images/a0ab9af4-aba2-4e9e-bc3c-62779037e1c0_0_e32cdf6e.webp",
+    "sha256": "de7b166ab0298c85a727ad34d7d6e2f7cc5339ecb323f6319cc899eb02105b0f"
+  },
+  {
+    "id": 23,
+    "name": "Gà cay Hàn Quốc",
+    "image": "assets/dishes/dish-023.webp",
+    "source_image_url": "https://lirp.cdn-website.com/5611ce0c/dms3rep/multi/opt/bbq%2Bkorean%2Bchicken%2Bnear%2Bme-1920w.jpg",
+    "sha256": "616963b30d01b890643d01938e8982dbed405288b628224017ce647e2639e933"
+  },
+  {
+    "id": 24,
+    "name": "Khoai tây chiên Golden",
+    "image": "assets/dishes/dish-024.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/thumb/1024x1024/100/021/974/products/bi-quyet-chien-khoai-tay-thom-ngon-gion-rum-an-hoai-khong-chan-6.jpg?v=1585224083547",
+    "sha256": "0da181345beaa66f62c3c08d3a35deaf942e2e0bdaddaecd50b30781ba031a72"
+  },
+  {
+    "id": 25,
+    "name": "Pizza hải sản",
+    "image": "assets/dishes/dish-025.webp",
+    "source_image_url": "https://images.deliveryhero.io/image/talabat/MenuItems/Mix_Seafood_Pizza638948222830061509.jpg",
+    "sha256": "243060bc4cb88e8236c822b00c31904b92be63d8e48804f23f51199624622284"
+  },
+  {
+    "id": 26,
+    "name": "Pizza bò sốt tiêu",
+    "image": "assets/dishes/dish-026.webp",
+    "source_image_url": "https://images.deliveryhero.io/image/fd-my/LH/njpz-listing.jpg",
+    "sha256": "a2afe72395e931a1e046d73bb0567a26060ae8906bf36c109aa67146d54b4c04"
+  },
+  {
+    "id": 27,
+    "name": "Pizza phô mai",
+    "image": "assets/dishes/dish-027.webp",
+    "source_image_url": "https://i.imgur.com/Fw99YeS.jpeg",
+    "sha256": "8f7a7b1555808d30e8f45efd060e5b751e67aaa240b603ff9d7af9249f3ebf86"
+  },
+  {
+    "id": 28,
+    "name": "Mì Ý bò bằm",
+    "image": "assets/dishes/dish-028.webp",
+    "source_image_url": "https://nhahangdungtien.com/images/products/2023/07/12/original/mi-y-sot-bo-bam-nha-hang-dung-tien-ba-vi_1689118148.jpg.jpg",
+    "sha256": "5be94be681b65eef0e2730a616d814e86b21036c9b5d6afdcc527087eb47da2b"
+  },
+  {
+    "id": 29,
+    "name": "Burger bò phô mai",
+    "image": "assets/dishes/dish-029.webp",
+    "source_image_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/burger_with_melted_cheese.jpg",
+    "sha256": "956ce2855c391e2383ce73e2c5f8993a6c590791a5e91b898c1017375209b9c9"
+  },
+  {
+    "id": 30,
+    "name": "Burger gà giòn",
+    "image": "assets/dishes/dish-030.webp",
+    "source_image_url": "https://product.hstatic.net/200000848723/product/37_4032a7a363934af3bf9d15a93ff08e19.jpg",
+    "sha256": "7630c6a8f38f03d187cda1b9699b80bf4630fc1529b24db2f59d58c908900205"
+  },
+  {
+    "id": 31,
+    "name": "Burger nấm chay",
+    "image": "assets/dishes/dish-031.webp",
+    "source_image_url": "https://sanguina.com/cdn/shop/articles/240511_Hero_a8475444-d039-4e01-9bbd-5ebaddc5ea91.jpg?crop=center&height=1200&v=1744237572&width=1200",
+    "sha256": "362aadf118d5e1d939e0c975ea917f0d9fb53c8056e7679c017a708eb9f8e1d6"
+  },
+  {
+    "id": 32,
+    "name": "Khoai tây phủ phô mai",
+    "image": "assets/dishes/dish-032.webp",
+    "source_image_url": "https://cdn.shopify.com/s/files/1/0617/2497/files/cheesy-fries.jpg?v=1725072796",
+    "sha256": "bedcf38b236c4da8191ea352fbc5b4cb76c234ae09eff1d11778e5a237f93dcf"
+  },
+  {
+    "id": 33,
+    "name": "Bánh tráng trộn",
+    "image": "assets/dishes/dish-033.webp",
+    "source_image_url": "https://medlatec.vn/media/52745/file/banh-trang-tron-bao-nhieu-calo-la-cau-hoi-cua-nhieu-nguoi.jpg",
+    "sha256": "e7327194142f8b557cf7add6e86cef35caa2009ad2e85ce5563717e2b2b9e1da"
+  },
+  {
+    "id": 34,
+    "name": "Cá viên chiên",
+    "image": "assets/dishes/dish-034.webp",
+    "source_image_url": "https://cdn.tgdd.vn/Files/2022/04/06/1424298/tong-hop-10-mon-an-xe-chieu-de-lam-nhanh-gon-de-cuu-doi-buoi-chieu-202204061503464245.jpg",
+    "sha256": "7ec76899e6439a30242a5c87c4ca4259fdd98ab0223b78ab69300b6b59eb7313"
+  },
+  {
+    "id": 35,
+    "name": "Trứng cút chiên",
+    "image": "assets/dishes/dish-035.webp",
+    "source_image_url": "https://afamilycdn.com/150157425591193600/2021/11/24/16a3result-16377583341441679751320.jpg",
+    "sha256": "061843f91d6885fd065732c5afd5e99be482771f0dab0e4fda253b633df330bc"
+  },
+  {
+    "id": 36,
+    "name": "Khoai tây chiên",
+    "image": "assets/dishes/dish-036.webp",
+    "source_image_url": "https://cdn-www.vinid.net/1aa66ad0-cach-lam-khoai-tay-chien.jpg",
+    "sha256": "df2f551b71d427991ae108074b80e7a5c87594360b0768cd892883e7f8762991"
+  },
+  {
+    "id": 37,
+    "name": "Bánh tráng cuốn",
+    "image": "assets/dishes/dish-037.webp",
+    "source_image_url": "https://www.adcfoods.com/wp-content/uploads/2021/05/cach-lam-banh-trang-cuon-cham-sot-tac-tai-nha.jpg",
+    "sha256": "9f1476121d3bf75dff3920b1c72935679b67c18035f23f8b20fa4b18911d0e71"
+  },
+  {
+    "id": 38,
+    "name": "Cá viên sốt cay",
+    "image": "assets/dishes/dish-038.webp",
+    "source_image_url": "https://cdn.tgdd.vn/2021/01/CookRecipe/GalleryStep/thanh-pham-883.jpg",
+    "sha256": "b04285ce450e7b7926999931b017f954dee2afd30c6143d704efcd6c1a1eeb81"
+  },
+  {
+    "id": 39,
+    "name": "Nem chua rán",
+    "image": "assets/dishes/dish-039.webp",
+    "source_image_url": "https://nemnuonghungviet.com/nemhungviet/uploads/2025/08/nem-chua-ran-hao-hang-24.jpg",
+    "sha256": "8a40c4fb8479142a59ee538449f8bc469d3553c6751d0bd0c5383e7e1f32ca60"
+  },
+  {
+    "id": 40,
+    "name": "Khoai tây lắc phô mai",
+    "image": "assets/dishes/dish-040.webp",
+    "source_image_url": "https://cdn.tgdd.vn/Files/2021/08/02/1372502/cach-lam-khoai-tay-lac-pho-mai-thom-ngon-de-lam-202108021541191572.jpg",
+    "sha256": "6ff2fbcc148530862833dc3041293e01735fcbb7adc4f4c62018980529bf1d85"
+  },
+  {
+    "id": 41,
+    "name": "Cơm trộn Hàn Quốc",
+    "image": "assets/dishes/dish-041.webp",
+    "source_image_url": "https://awsimages.detik.net.id/community/media/visual/2023/08/30/restoran-ini-tawarkan-pelayan-restoran-gaji-rp-37-juta-sebulan-2.jpeg?w=1200",
+    "sha256": "72c1f7bc2e3732fdd544e7e015f816e7d4c0d87eeebb40a1703a230b90cebfdd"
+  },
+  {
+    "id": 42,
+    "name": "Kimbap thịt",
+    "image": "assets/dishes/dish-042.webp",
+    "source_image_url": "https://cdn.imweb.me/upload/S2023070398f95547dd80f/60a900bc98c1e.jpg",
+    "sha256": "0b6d3559f794f7897c3f9dbf4608e0daf74eff8478b47258c9a7fd7eb4a11132"
+  },
+  {
+    "id": 43,
+    "name": "Tokbokki chay",
+    "image": "assets/dishes/dish-043.webp",
+    "source_image_url": "https://cdn.shopify.com/s/files/1/0617/2497/files/tteokbokki-chay.jpg?v=1721980377",
+    "sha256": "d065023c6a3e4caf45d94c3d40cdcacbe4083fb7310ab3437ea7e7ce77c4a87b"
+  },
+  {
+    "id": 44,
+    "name": "Canh kim chi thịt",
+    "image": "assets/dishes/dish-044.webp",
+    "source_image_url": "https://cdn.vietreader.com/uploads/posts/2021-08/10-best-korean-hot-pot-restaurants-in-ho-chi-minh-city-10.jpg",
+    "sha256": "7dc5faeb9ef9da3e402e867ef8b938520502e4e65f2840e4381af9d5db0eeedf"
+  },
+  {
+    "id": 45,
+    "name": "Cơm bò bulgogi",
+    "image": "assets/dishes/dish-045.webp",
+    "source_image_url": "https://media.pickaroo.com/media/thumb/product_photo/2022/7/14/eNrHzAgj5JgrRHXRhq5Tag_watermark_400.jpg",
+    "sha256": "7bc3d8eeb52c92f95a1058928d6fd3e7cc66f13012e5f02c750d49f619119419"
+  },
+  {
+    "id": 46,
+    "name": "Kimbap rau củ",
+    "image": "assets/dishes/dish-046.webp",
+    "source_image_url": "https://imgfp.hotp.jp/IMGH/96/88/P039699688/P039699688_480.jpg",
+    "sha256": "0e9c39889eb8880e5f2109ee687709be4bc19b13ba363937d9544b4355fd9374"
+  },
+  {
+    "id": 47,
+    "name": "Mì cay Hàn Quốc",
+    "image": "assets/dishes/dish-047.webp",
+    "source_image_url": "https://image.makewebeasy.net/makeweb/crop/RcD2T8r5w/Kimchi/Gemini_Generated_Image_h0pxu7h0pxu7h0px.png?h=975&v=202405291424&w=975&x=0&y=0",
+    "sha256": "23e4b22ac2d59a41f388fbd2135280b40ec53225f7b26ba689701142ebcf3c28"
+  },
+  {
+    "id": 48,
+    "name": "Mandu thịt hấp",
+    "image": "assets/dishes/dish-048.webp",
+    "source_image_url": "https://image.hnsmall.com/images/goods/597/52146597_g.jpg",
+    "sha256": "86f7888a1513a9d6441509abf136ab164d8c4f66dfb132b858e4ace9ea0fbde2"
+  },
+  {
+    "id": 49,
+    "name": "Cơm chay nấm",
+    "image": "assets/dishes/dish-049.webp",
+    "source_image_url": "https://www.veggiecastle.vn/_next/image?q=75&url=%2Ffood_rice.png&w=1200",
+    "sha256": "6c17b297f48e3dfc3839ccef77bddb6bd2ced8517e2c3ca8979177fead31b093"
+  },
+  {
+    "id": 50,
+    "name": "Bún chay",
+    "image": "assets/dishes/dish-050.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/524/612/files/2-3d1292da-2065-4845-8788-67ae3d6f9af8.jpg?v=1755315822489",
+    "sha256": "5aeb2deaf126dad88dfa0b30b99c6abfbf42808e13d4ed62e316a53d2a71c41b"
+  },
+  {
+    "id": 51,
+    "name": "Salad rau củ",
+    "image": "assets/dishes/dish-051.webp",
+    "source_image_url": "https://pasgo.vn/Upload/anh-chi-tiet/nha-hang-chay-an-cafe-pham-thai-buong-3-normal-2346722365112.webp",
+    "sha256": "fe4560c1d09783dc1973897a894112921cc436873c33a8effeb9d917b45ace75"
+  },
+  {
+    "id": 52,
+    "name": "Gỏi cuốn chay",
+    "image": "assets/dishes/dish-052.webp",
+    "source_image_url": "https://images.cookjunkie.com/recipes/fd078475d57df1189c1c629af1f42fe09ac5596f8f413b41081a59fd4dbad32e.jpg",
+    "sha256": "627132f84f02e5167d7dfda126a7367f3e9a9953b09ce771260002f5268373ee"
+  },
+  {
+    "id": 53,
+    "name": "Phở chay",
+    "image": "assets/dishes/dish-053.webp",
+    "source_image_url": "https://www.veggiecastle.vn/_next/image?q=75&url=%2Ffood_soup.png&w=750",
+    "sha256": "de51d2b35814f4c1fba021f90228866d04292d4901f6437b2ab1a867478d2f06"
+  },
+  {
+    "id": 54,
+    "name": "Cơm nấm đậu hũ",
+    "image": "assets/dishes/dish-054.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/524/612/files/2-530f947c-97c6-4128-8480-d8c377e2d3da.jpg?v=1751275095372",
+    "sha256": "b40d6ea897378816245cc5eb83a03fc42e1cf84cda39b4526291bc6370859b0f"
+  },
+  {
+    "id": 55,
+    "name": "Đậu hũ sốt Tứ Xuyên chay",
+    "image": "assets/dishes/dish-055.webp",
+    "source_image_url": "https://cdn.eva.vn/upload/2-2022/news_template_seo/1649401536/other/2022-04-08/u-hu-Tu-Xuyen/images/image13.jpg",
+    "sha256": "d6d9447cb6af6c1ee13bb513abbc8054da91031ece98439c0a428010e20ec9af"
+  },
+  {
+    "id": 56,
+    "name": "Mì xào rau củ",
+    "image": "assets/dishes/dish-056.webp",
+    "source_image_url": "https://cdn.eva.vn/upload/4-2017/images/2017-10-06/1507304851-2.jpg",
+    "sha256": "d97e467410a405627657b30e862b724a97ad72b6d4cad639ccb67cd33849723f"
+  },
+  {
+    "id": 57,
+    "name": "Trà sữa trân châu Tea Cloud",
+    "image": "assets/dishes/dish-057.webp",
+    "source_image_url": "https://hips.hearstapps.com/hmg-prod/images/482011129-1061763879324874-3982658876431446187-n-680f223468f3b.jpg?crop=0.393xw%3A0.393xh%3B0%2C0.359xh",
+    "sha256": "e5c63b816cb1c95211424dc6872bcdcbebc7a90d701bc4197de8b444463041d2"
+  },
+  {
+    "id": 58,
+    "name": "Trà sữa ô long kem sữa",
+    "image": "assets/dishes/dish-058.webp",
+    "source_image_url": "https://media.kinhtetieudung.vn/images/2025/02/22/33-1740187371-81fd8e0a-d6bc-4354-ab28-e4b32b6b67c3-42d4dad8.jpg",
+    "sha256": "6284db1882f058faf79a610a4b7a5507b7e2f815b29baffd3d4f7ed822cd4f00"
+  },
+  {
+    "id": 59,
+    "name": "Trà sữa Thái xanh",
+    "image": "assets/dishes/dish-059.webp",
+    "source_image_url": "https://cdn.prod.website-files.com/60c812980a2d5967cc89ea49/60da96894f02b6cc996a87ba_Ca%CC%81ch%20la%CC%80m%20tra%CC%80%20su%CC%9B%CC%83a%20tha%CC%81ii%20xanh%206.jpeg",
+    "sha256": "3339faa9417c16b0f4417c0c1c5f861187daa41454defe6ebeac3cc6e9a03b9f"
+  },
+  {
+    "id": 60,
+    "name": "Sữa tươi trân châu đường đen",
+    "image": "assets/dishes/dish-060.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/004/714/articles/5ae59b55854b4-duong-den1-600x600-1.png?v=1614223492290",
+    "sha256": "ae96651d131af2d0b2f123596666e32e5a025dea19e10df4733c05f7c9f9bcff"
+  },
+  {
+    "id": 61,
+    "name": "Trà sữa truyền thống Mây",
+    "image": "assets/dishes/dish-061.webp",
+    "source_image_url": "https://hocphachehanoi.com.vn/upload/userfiles/images/cach-lam-tra-sua-tran-chau-tai-nha-02.jpg",
+    "sha256": "471df64de4361dfb3243bf17d26b1831686d685264e8c159054cfe93304d8788"
+  },
+  {
+    "id": 62,
+    "name": "Matcha latte Mây",
+    "image": "assets/dishes/dish-062.webp",
+    "source_image_url": "https://images2.thanhnien.vn/528068263637045248/2025/9/22/matcha-175855171916584499039.png",
+    "sha256": "5e39b6e820d594ff209c98f5cc57dc9e50205dbafb0d4fadfda8ad496217fa38"
+  },
+  {
+    "id": 63,
+    "name": "Trà sữa ô long nướng",
+    "image": "assets/dishes/dish-063.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/421/036/files/banner-tra-sua-nuong-ngon.jpg?v=1617078597087",
+    "sha256": "4723d0a4b3b4268324c1d1a85695ef7004059caef2a30d886492bd70f2ce48f6"
+  },
+  {
+    "id": 64,
+    "name": "Trà sữa đường đen Mây",
+    "image": "assets/dishes/dish-064.webp",
+    "source_image_url": "https://down-vn.img.susercontent.com/file/vn-11134201-23030-48g1d617qsov3e",
+    "sha256": "9714b0b0d87bdef34cb06f6780b4d37e2f86fb3af1b7127479e08c68beea09af"
+  },
+  {
+    "id": 65,
+    "name": "Trà sữa lài Lá Nhỏ",
+    "image": "assets/dishes/dish-065.webp",
+    "source_image_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/recipe_pics_v2/medium/jasmine_milk_tea.jpg",
+    "sha256": "d6ed323e3d246dd3aca535aa8628c721fb2ce0376bf35fa6f7d5c2c13743ad84"
+  },
+  {
+    "id": 66,
+    "name": "Trà sữa cacao",
+    "image": "assets/dishes/dish-066.webp",
+    "source_image_url": "https://lynhuasaigon.com/wp-content/uploads/2022/04/hinh-anh-ly-tra-sua-socola.jpg",
+    "sha256": "35f058a5c70adcf011bf3fe70999c447979c4ed7cec52d0a8ecbcb0245613e82"
+  },
+  {
+    "id": 67,
+    "name": "Trà sữa khoai môn",
+    "image": "assets/dishes/dish-067.webp",
+    "source_image_url": "https://file.hstatic.net/200000538679/file/tra-sua-khoai-mon__2__3d8987df6b8a44aab040015839787cc7_grande.png",
+    "sha256": "9e0d3573304c71c6b24645a619f46a4f8704cca9541ee3732099a1a7e732341c"
+  },
+  {
+    "id": 68,
+    "name": "Trà dâu nhiệt đới",
+    "image": "assets/dishes/dish-068.webp",
+    "source_image_url": "https://content.pancake.vn/web-media/60/f8/3b/ce/3cb4b1ac73b1cd2808198d73ccf947a16302c142208567b3022ac28a-w%3A3480-h%3A3480-l%3A1555394-t%3Aimage/jpeg.jpeg",
+    "sha256": "4e2bd483c49625bbb9da44b240358ec0fed5bae707255731b6ce39d81c6cc0ff"
+  },
+  {
+    "id": 69,
+    "name": "Trà đào cam sả",
+    "image": "assets/dishes/dish-069.webp",
+    "source_image_url": "https://cdn.dealtoday.vn/1b720191a9c543999ed82e6fe2b71f5f.jpg",
+    "sha256": "0cfd8f2446f55b39d06e3a66dec1ec364105bfa8f873681e827bd7ad2abe674e"
+  },
+  {
+    "id": 70,
+    "name": "Trà vải hoa lài",
+    "image": "assets/dishes/dish-070.webp",
+    "source_image_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/lychee_jasmine_tea.jpg",
+    "sha256": "0e66cf822f894bfb413f11806b36143ae40e2634fd592e5125f8972499879155"
+  },
+  {
+    "id": 71,
+    "name": "Trà chanh tươi",
+    "image": "assets/dishes/dish-071.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/025/663/files/1-cdaa1809-3410-4ecd-9e8f-cb193e7c4469.jpg?v=1626432326976",
+    "sha256": "2011989236157ab1b28653c494df100c2ddf9d987b459fcb036c8ba8b77e5b10"
+  },
+  {
+    "id": 72,
+    "name": "Trà mận nhiệt đới",
+    "image": "assets/dishes/dish-072.webp",
+    "source_image_url": "https://cdn.eva.vn/upload/2-2025/images/hank/qua-nay-dang-vao-mua-chin-ro-nhanh-tay-lam-nuoc-uong-keo-muon-bay-gio-_45_9_n-1749678914-196-width780height780.jpg",
+    "sha256": "ca39b5045bbdeb510fc94ab1b8e15b5409e9682a57d4320e44ceedc1e2db5e10"
+  },
+  {
+    "id": 73,
+    "name": "Cà phê sữa đá",
+    "image": "assets/dishes/dish-073.webp",
+    "source_image_url": "https://vietchallenge.com/images/uploads/p2.jpg",
+    "sha256": "f2092eb59ce9bb295fe37ae7576b05f15a43dd3d33cd1a46887b3deb960662c3"
+  },
+  {
+    "id": 74,
+    "name": "Bạc xỉu",
+    "image": "assets/dishes/dish-074.webp",
+    "source_image_url": "https://lypham.vn/wp-content/uploads/2024/09/cach-lam-bac-xiu-da.jpg",
+    "sha256": "88ee1cc9cd62a3975adf619bf4603bb8b3c06f80811847030577fdb2f790c431"
+  },
+  {
+    "id": 75,
+    "name": "Cà phê đen đá",
+    "image": "assets/dishes/dish-075.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/513/603/products/den-da.png?v=1716133828150",
+    "sha256": "33d942ae9272927aab5ced3d9692933038712c0855478210be99b3a412282407"
+  },
+  {
+    "id": 76,
+    "name": "Cold brew nguyên bản",
+    "image": "assets/dishes/dish-076.webp",
+    "source_image_url": "https://dearnaracafe.com/img/p/2/3/23-thickbox_default.jpg",
+    "sha256": "0047d874510627cb81767bc460bfc664ec98eb8bbe6d66a5a5da7459ae5e7cdb"
+  },
+  {
+    "id": 77,
+    "name": "Salad gà nướng",
+    "image": "assets/dishes/dish-077.webp",
+    "source_image_url": "https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_281844/20250328081324_eXH8m/png",
+    "sha256": "9d7902090294c80b0a9484387a66d2667fb3ca6941009f18131210f11d204a5b"
+  },
+  {
+    "id": 78,
+    "name": "Salad bơ rau xanh",
+    "image": "assets/dishes/dish-078.webp",
+    "source_image_url": "https://bizweb.dktcdn.net/100/524/612/files/1-0cc10d18-1914-49e8-9fbb-42ea75eae29e.jpg?v=1753777508569",
+    "sha256": "5a84970fde7e402a5c5711832c9ec030dff4f22d0688a562c3f3f9c341d316b5"
+  },
+  {
+    "id": 79,
+    "name": "Salad đậu hũ",
+    "image": "assets/dishes/dish-079.webp",
+    "source_image_url": "https://static.bkkmenu.com/files/2021/03/DoikhamFarmfactory-18-1005x670.jpg",
+    "sha256": "8a96429211ac35781201d727bd1376f377617d4782a2f7def0aa983466c6fb8f"
+  },
+  {
+    "id": 80,
+    "name": "Salad cá ngừ",
+    "image": "assets/dishes/dish-080.webp",
+    "source_image_url": "https://elhorno.com/media/catalog/product/cache/728587fcd73f36684dd4a1c3c4b36cfb/m/e/menu_ensalada_bebida_copia.jpg",
+    "sha256": "f68a0c1dcedae41d4d10a476a06be62c2ca6c26b8660a5e4e21b5eb4c2434d9a"
+  }
+]
